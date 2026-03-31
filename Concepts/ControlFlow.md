@@ -1,3 +1,7 @@
 # Control Flow
+This is the main logic of your program, without this it never be able to adapt to the different states of your program and would just do the same thing every time.
 
-[Previous](Variables) | [Next](Functions)
+# If else
+
+
+[Previous](Expressions) | [Next](Functions)
