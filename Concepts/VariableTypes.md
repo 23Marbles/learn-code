@@ -43,3 +43,5 @@ These store "strings" of characters which can be interpreted as text. There are 
 These can store a long list of variables which can be added to and removed from. They are generally created with the form `[x, y, z]`. You can generally access elements of this array using the `array_variable_name[x]` where x is the "index" (position) in the Array. The convention is that Array indexes start from 0 and grow upwards (Apart from lua which starts from 1). Adding to x to an Array generally takes the form of `array_variable_name.push(x)`.
 ## Dictionary
 These allow you to organise data using keys. You insert new keys into it with attached data and then edit them by modifying the value at the key.
+
+[Previous](<./Variables.md>) | [Next](<./Expressions.md>)
