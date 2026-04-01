@@ -14,14 +14,14 @@ fn main() {
 # Common variable types
 Here is a list of the common variable types which you will come across while programming:
 
-| Type       | Aliases            | What it is                                                                   |
-| ---------- | ------------------ | ---------------------------------------------------------------------------- |
-| Boolean    | `bool`             | A value of `true` or `false`                                                 |
-| Integer    | `int`,`i8`         | Numbers which are not decimal                                                |
-| Float      | `double`, `f64`    | Numbers which are decimal                                                    |
-| String     | `str`              | Text                                                                         |
-| Array      | `Vec`, `List`, [ ] | A list of another type of variable                                           |
-| Dictionary | `HashMap`, { }     | A selection of key value pairs where u can find the values by inputting keys |
+| Type       | Aliases             | What it is                                                                   |
+| ---------- | ------------------- | ---------------------------------------------------------------------------- |
+| Boolean    | `bool`              | A value of `true` or `false`                                                 |
+| Integer    | `int`,`i8`          | Numbers which are not decimal                                                |
+| Float      | `double`, `f64`     | Numbers which are decimal                                                    |
+| String     | `str`               | Text                                                                         |
+| Array      | `Vec`, `List`, `[]` | A list of another type of variable                                           |
+| Dictionary | `HashMap`, `{}`     | A selection of key value pairs where u can find the values by inputting keys |
 ## Boolean
 These are the most basic variable and can be in either one if two states, `true` or `false`. These are primarily used with control flow statements which take in a Boolean value to change how the program runs. For anyone that knows binary you might think that each bool is stored on a single bit but it is actually stored on a full byte instead for performance reasons.
 ## Integer
@@ -42,3 +42,4 @@ These store "strings" of characters which can be interpreted as text. There are 
 ## Array
 These can store a long list of variables which can be added to and removed from. They are generally created with the form `[x, y, z]`. You can generally access elements of this array using the `array_variable_name[x]` where x is the "index" (position) in the Array. The convention is that Array indexes start from 0 and grow upwards (Apart from lua which starts from 1). Adding to x to an Array generally takes the form of `array_variable_name.push(x)`.
 ## Dictionary
+These allow you to organise data using keys. You insert new keys into it with attached data and then edit them by modifying the value at the key.
