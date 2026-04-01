@@ -3,8 +3,8 @@ At its core programming is simply the process of manipulating data automatically
 # Levels of language 
 Languages can generally be classified as high or low level languages which show how closely you interact with the machine. On general high level languages are easier to learn but slower and low level is faster but harder to learn.
 # Sections of this guide
-- [Understanding variables](Concepts/Variables)
-- [Control flow and logic](Concepts/ControlFlow)
-- [Using functions](Concepts/Functions)
+- [[Variables|Understanding variables]]
+- [[ControlFlow|Control flow and logic]]
+- [[Functions|Using functions]]
 
-[Next](Concepts/Variables)
+[[Variables|Next]]

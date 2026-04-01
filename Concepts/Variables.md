@@ -11,4 +11,4 @@ cheesy = True
 > ## Pointers
 These are variables which **point** to other variables. These may seem incredibly **point**less at first until you realise that otherwise the computer would have no idea where your variables where. These generally only show up in low level languages as they interact very directly with the system.
 
-[Previous](<What is programming.md>) | [Next](Concepts/VariableTypes)
+[[What is programming|Previous]] | [[VariableTypes|Next]]

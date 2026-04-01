@@ -1,5 +1,6 @@
 # Variable types
 Every variable has a type which determines what you can do with it. It also has a variety of different states which can be encoded into it (eg: Integer and Float store numbers, Strings store text etc). The variables type also influences what you can do with it. For example it makes sense to be able to add two numbers (Floats or Integers) but what would adding two Booleans look like (it doesn't work!)
+
 ```rust
 fn main() {
     let boolean: bool = false;
@@ -37,6 +38,7 @@ These store "strings" of characters which can be interpreted as text. There are 
 
 > [!NOTE]
 > ### Text Encoding
-> Encoding support can be very patchy in some languages *(looking at you C)* so it is important to understand what you can and cannot put in Strings. If a language only supports ASCII Strings you are limited to Latin glyphs and similar. To find out more I recommend reading this [excellent article](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/).
+> String support can be very patchy in some languages *(looking at you C)* so it is important to understand what you can and cannot put in Strings. If a language only supports ASCII Strings you are limited to Latin glyphs and similar. To find out more I recommend reading this [excellent article](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/).
 ## Array
-These can store a long list of variables which can be added to and removed from. They are generally created with the form [x, y, z]. You can generally access elements of this array using the array_variable_name[x] where x is the "index" (position) in the Array. The convention is that Array indexes start from 0 and grow upwards.
+These can store a long list of variables which can be added to and removed from. They are generally created with the form `[x, y, z]`. You can generally access elements of this array using the `array_variable_name[x]` where x is the "index" (position) in the Array. The convention is that Array indexes start from 0 and grow upwards (Apart from lua which starts from 1). Adding to x to an Array generally takes the form of `array_variable_name.push(x)`.
+## Dictionary

@@ -1,1 +1,1 @@
-[Previous](ControlFlow)
+[[ControlFlow|Previous]]

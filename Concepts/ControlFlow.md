@@ -4,4 +4,4 @@ This is the main logic of your program, without this it never be able to adapt t
 # If else
 
 
-[Previous](Expressions) | [Next](Functions)
+[[Expressions|Previous]] | [[Functions|Next]]
